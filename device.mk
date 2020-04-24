@@ -54,5 +54,9 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     vndservicemanager
 
+# Wi-Fi
+PRODUCT_PACKAGES += \
+    MojitoWifiOverlay
+
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/mojito/mojito-vendor.mk)
