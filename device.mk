@@ -20,6 +20,10 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 # API level, the device has been commercially launched on
 PRODUCT_SHIPPING_API_LEVEL := 30
 
+# Audio
+PRODUCT_PACKAGES += \
+    libtinycompress
+
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
