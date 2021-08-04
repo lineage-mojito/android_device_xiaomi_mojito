@@ -1,0 +1,2 @@
+allow vendor_mdm_helper vendor_mba_debug_dev:blk_file r_file_perms;
+allow vendor_mdm_helper vendor_custom_ab_block_device:blk_file r_file_perms;
