@@ -1,7 +1,12 @@
 type vendor_sysfs_iio, fs_type, sysfs_type;
 type vendor_elliptic_device, dev_type;
 
+hal_client_domain(hal_sensors_default, hal_audio)
+binder_call(hal_sensors_default, hal_audio_default)
+
 allow hal_sensors_default iio_device:chr_file rw_file_perms;
 allow hal_sensors_default vendor_elliptic_device:chr_file rw_file_perms;
 allow hal_sensors_default vendor_sysfs_iio:dir r_dir_perms;
 allow hal_sensors_default vendor_sysfs_iio:file rw_file_perms;
+
+allow hal_sensors_default hal_audio_hwservice:hwservice_manager find;
