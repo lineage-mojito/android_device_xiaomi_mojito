@@ -246,4 +246,7 @@
          hysteresis threshold. -->
     <integer name="config_autoBrightnessBrighteningLightDebounce">1000</integer>
     <integer name="config_autoBrightnessDarkeningLightDebounce">1000</integer>
+
+    <!-- Whether device has fingerprint on power button -->
+    <bool name="config_powerButtonFingerprint">true</bool>
 </resources>
