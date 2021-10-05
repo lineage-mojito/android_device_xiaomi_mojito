@@ -36,5 +36,8 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 # Security patch level
 VENDOR_SECURITY_PATCH := 2023-10-01
 
+# Sepolicy
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+
 # Inherit from proprietary files
 include vendor/xiaomi/mojito/BoardConfigVendor.mk
