@@ -5,6 +5,7 @@
 
 #include <vector>
 
+#include <android-base/logging.h>
 #include <android-base/properties.h>
 #define _REALLY_INCLUDE_SYS__SYSTEM_PROPERTIES_H_
 #include <sys/_system_properties.h>
@@ -69,6 +70,8 @@ void load_vendor_props() {
 }
 
 void vendor_load_properties() {
-    load_vendor_props();
+    if (access("/system/bin/recovery", F_OK) != 0) {
+        load_vendor_props();
+    }
     load_dalvikvm_props();
 }
