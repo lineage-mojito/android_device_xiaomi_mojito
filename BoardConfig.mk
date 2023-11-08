@@ -24,5 +24,8 @@ BOARD_SUPER_PARTITION_SIZE := 9126805504
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
+# Security patch level
+VENDOR_SECURITY_PATCH := 2023-10-01
+
 # Inherit from proprietary files
 include vendor/xiaomi/mojito/BoardConfigVendor.mk
