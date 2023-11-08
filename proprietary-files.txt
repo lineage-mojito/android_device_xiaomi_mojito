@@ -201,7 +201,6 @@ vendor/lib64/camera/fdconfigvideolite.bin
 -vendor/lib64/libFaceGrade.so
 -vendor/lib64/libHalSuperSensorServer.so
 -vendor/lib64/libI420colorconvert.so
--vendor/lib64/libMegviiFacepp-0.5.2.so
 -vendor/lib64/libSNPE.so
 -vendor/lib64/libSuperSensor.so
 -vendor/lib64/libSuperSensorCPU.so
@@ -235,7 +234,6 @@ vendor/lib64/camera/fdconfigvideolite.bin
 -vendor/lib64/libdng_sdk2vendor.so
 -vendor/lib64/libft2vendor.so
 -vendor/lib64/libhvx_interface.so
--vendor/lib64/libmegface.so
 -vendor/lib64/libmiStereoFactoryRemapBasicLib.so
 -vendor/lib64/libmiStereoFactoryRemapLib.so
 -vendor/lib64/libmiStereoFactoryRemapLib_v2.so
